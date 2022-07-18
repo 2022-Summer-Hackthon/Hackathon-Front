@@ -8,13 +8,13 @@ const Template5BackStyle = styled.div`
   padding-top: 29px;
   position: relative;
 
-  .rogo {
+  .nomal-rogo {
     width: 243px;
     height: 103px;
 
     position: relative;
 
-    .circle {
+    .nomal-circle {
       width: 70px;
       height: 70px;
       border-radius: 50%;
@@ -31,25 +31,25 @@ const Template5BackStyle = styled.div`
       position: absolute;
     }
 
-    .circle:nth-child(1) {
+    .nomal-circle:nth-child(1) {
       top: 0;
       left: 0;
     }
-    .circle:nth-child(2) {
+    .nomal-circle:nth-child(2) {
       bottom: 9px;
       left: 57px;
     }
-    .circle:nth-child(3) {
+    .nomal-circle:nth-child(3) {
       top: 6px;
       left: 117px;
     }
-    .circle:nth-child(4) {
+    .nomal-circle:nth-child(4) {
       bottom: 0;
       right: 0;
     }
   }
 
-  .info {
+  .nomal-info {
     position: absolute;
     bottom: 30px;
     right: 27px;
@@ -57,17 +57,17 @@ const Template5BackStyle = styled.div`
     width: 260px;
     height: 144px;
 
-    .important {
+    .nomal-important {
       display: flex;
       align-items: flex-end;
 
-      .name {
+      .nomal-name {
         font-weight: 600;
         font-size: 31px;
         line-height: 37px;
         letter-spacing: 0.19em;
       }
-      .career {
+      .nomal-career {
         margin-left: 16px;
         font-weight: 600;
         font-size: 17px;
@@ -75,7 +75,7 @@ const Template5BackStyle = styled.div`
         color: rgba(121, 118, 113, 0.6);
       }
     }
-    .other {
+    .nomal-other {
       margin-top: 19px;
       font-weight: 600;
       font-size: 20px;
