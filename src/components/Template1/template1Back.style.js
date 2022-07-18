@@ -1,14 +1,18 @@
 import styled from "styled-components";
 
 const Template1BackStyle = styled.div`
-  /*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
-
   .back {
     position: relative;
     width: 616px;
     height: 351px;
-
+    background: white;
     color: black;
+  }
+
+  .school {
+    position: absolute;
+    top: 35px;
+    right: 27px;
   }
 
   .title1 {
@@ -20,10 +24,17 @@ const Template1BackStyle = styled.div`
 
   .contents {
     display: flex;
-    margin-left: 28px;
     align-items: center;
-    padding-bottom: 28px;
     color: black;
+
+    position: absolute;
+    left: 24px;
+    bottom: 76px;
+
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(159, 204, 175, 1);
+
+    width: 569px;
   }
 
   .career {
@@ -37,8 +48,6 @@ const Template1BackStyle = styled.div`
   }
 
   .name {
-    margin-left: 9px;
-
     font-family: "Arial";
     font-style: normal;
     font-weight: 700;
@@ -47,6 +56,21 @@ const Template1BackStyle = styled.div`
     letter-spacing: 0.2em;
 
     color: #000000;
+  }
+
+  .info {
+    position: absolute;
+    left: 29px;
+    bottom: 17px;
+  }
+
+  .flex {
+    display: flex;
+    margin-bottom: 11px;
+  }
+
+  .call {
+    margin-left: 19px;
   }
 `;
 

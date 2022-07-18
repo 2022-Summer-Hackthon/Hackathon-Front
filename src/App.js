@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Finish from "./components/Finish/Finish";
-import Template1 from "./components/Template1/app"
+import Template1Back from "./components/Template1/Template1Back";
 
 const Main = lazy(() => import("./pages/Main/MainPage"));
 const Nav = lazy(() => import("./components/Nav/Nav"));
@@ -46,7 +46,7 @@ const App = () => {
           path="/template1"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template1 />
+              <Template1Back />
             </Suspense>
           }
         />
