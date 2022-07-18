@@ -1,7 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Finish from "./components/Finish/Finish";
-// import Template1Front from "./components/Template1/Template1Front";
 import Template2Front from "./components/Template2/Template2Front";
 import Template2Back from "./components/Template2/Template2Back";
 
