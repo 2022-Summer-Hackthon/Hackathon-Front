@@ -1,21 +1,17 @@
-.front {
+  .front {
     width: 616px;
     height: 351px;
-    /* text-align: center; */
+  
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 50px;
-  
+    
     background: #9FCCAF;
   }
   
   h1 {
-    /* position: absolute;
-    left:50%;
-    top: 50%;
-    transform: translate(-50%, -50%); */
     font-family: 'Happy Monkey';
     font-style: normal;
     font-weight: 400;
@@ -40,26 +36,27 @@
   color: #FFFFFF;
   }
   
+  /*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
   .back{
-    color: black;
-  
-    float: right;
+    position: relative;
     width: 616px;
     height: 351px;
+
+    color: black;
   }
   
   .title1 {
     display: flex;
     align-items: flex-end;
-  
+
     color: #9FCCAF;
   }
   
   .contents {
     display: flex;
-    align-items: flex-end;
     margin-left: 28px;
-    align-items:center;
+    align-items:center; 
     padding-bottom: 28px;
     color: black;
   }
@@ -72,7 +69,6 @@
     line-height: 23px;
     /* identical to box height */
     color: #000000;
-  
   }
   
   .name {
@@ -87,5 +83,3 @@
   
     color: #000000;
   }
-  
-  
