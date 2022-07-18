@@ -1,4 +1,3 @@
-import "./app.css";
 import Template1Front from "./templateFront.style";
 
 function Template1() {
