@@ -1,9 +1,11 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Finish from "./components/Finish/Finish";
-import Template1Back from "./components/Template1/Template1Back";
+
 import Template4Back from "./components/Template4/Template4Back";
 import Template4Front from "./components/Template4/Template4Front";
+import Template2Front from "./components/Template2/Template2Front";
+import Template2Back from "./components/Template2/Template2Back";
 
 const Main = lazy(() => import("./pages/Main/MainPage"));
 const Nav = lazy(() => import("./components/Nav/Nav"));
@@ -45,10 +47,11 @@ const App = () => {
           }
         />
         <Route
-          path="/template1"
+          path="/template2"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template1Back />
+              <Template2Front />
+              <Template2Back />
             </Suspense>
           }
         />
