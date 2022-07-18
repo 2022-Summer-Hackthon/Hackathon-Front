@@ -1,0 +1,91 @@
+.front {
+    width: 616px;
+    height: 351px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  
+    background: #9FCCAF;
+  }
+  
+  h1 {
+    /* position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+  
+    margin: 0;
+  }
+  
+  h2 {
+  margin: 0;
+  width: 71px;
+  height: 17px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #FFFFFF;
+  }
+  
+  .back{
+    color: black;
+  
+    float: right;
+    width: 616px;
+    height: 351px;
+  }
+  
+  .title1 {
+    display: flex;
+    align-items: flex-end;
+  
+    color: #9FCCAF;
+  }
+  
+  .contents {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 28px;
+    align-items:center;
+    padding-bottom: 28px;
+    color: black;
+  }
+  
+  .career {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+  
+  }
+  
+  .name {
+    margin-left: 9px;
+  
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 26px;
+    letter-spacing: 0.2em;
+  
+    color: #000000;
+  }
+  
+  
