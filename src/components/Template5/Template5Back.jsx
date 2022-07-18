@@ -10,7 +10,6 @@ const Template5Back = memo(({ size }) => {
         <div className={`${size}-circle`}>S</div>
         <div className={`${size}-circle`}>W</div>
       </div>
-
       <div className={`${size}-info`}>
         <div className={`${size}-important`}>
           <div className={`${size}-name`}>강성훈</div>
