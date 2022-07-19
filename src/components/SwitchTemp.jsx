@@ -3,6 +3,8 @@ import Template1 from "./Template1/Template1Front";
 import Template1Back from "./Template1/Template1Back";
 import Template2Front from "./Template2/Template2Front";
 import Template2Back from "./Template2/Template2Back";
+import Template3Front from "./Template3/Template3Front";
+import Template3Back from "./Template3/Template3Back";
 import Template4Front from "./Template4/Template4Front";
 import Template4Back from "./Template4/Template4Back";
 import Template5Front from "./Template5/Template5Front";
@@ -28,6 +30,11 @@ const SwitchTemp = ({ templateNumber }) => {
         <>
           <Template2Front size="large" />
           <Template2Back size="large" />
+        </>
+      ) : templateNumber === 3 ? (
+        <>
+          <Template3Front size="large" />
+          <Template3Back size="large" />
         </>
       ) : templateNumber === 4 ? (
         <>

@@ -16,6 +16,8 @@ const Template5Style = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 50px;
   }
 
   .normal-logo {

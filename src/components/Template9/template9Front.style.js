@@ -25,6 +25,8 @@ const Template9FrontStyle = styled.div`
 
     position: relative;
 
+    margin-bottom: 50px;
+
     svg {
       position: absolute;
       top: 250px;

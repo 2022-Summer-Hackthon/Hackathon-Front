@@ -38,6 +38,8 @@ const Template8FrontStyle = styled.div`
     align-items: flex-end;
 
     background-color: #fff;
+
+    margin-bottom: 50px;
   }
   .large-infoDiv {
     z-index: 999;

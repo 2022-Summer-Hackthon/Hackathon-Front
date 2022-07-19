@@ -46,8 +46,9 @@ const Template6FrontStyle = styled.div`
     justify-content: space-between;
     align-items: flex-end;
     background-color: #fff;
+    overflow: hidden;
 
-    margin-bottom: 116px;
+    margin-bottom: 50px;
   }
   .large-logoDiv {
     display: flex;

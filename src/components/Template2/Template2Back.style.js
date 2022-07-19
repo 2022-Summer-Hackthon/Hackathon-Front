@@ -8,7 +8,6 @@ const Template2BackStyle = styled.div`
 
     position: relative;
     background-color: white;
-    border: 1px solid black;
   }
 
   .normal-intro {
@@ -112,7 +111,6 @@ const Template2BackStyle = styled.div`
 
     position: relative;
     background-color: white;
-    border: 1px solid black;
   }
 
   .large-intro {
