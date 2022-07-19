@@ -9,8 +9,8 @@ import Template1BackPng from "../../assets/image/Template1BackPng.png";
 import Template2FrontPng from "../../assets/image/Template2FrontPng.png";
 import Template2BackPng from "../../assets/image/Template2BackPng.png";
 
-import Template3FrontPng from "../../assets/image/Template3FrontPng.png";
-import Template3BackPng from "../../assets/image/Template3BackPng.png";
+import Template3FrontPng from "../../assets/image/Template3BackPng.png";
+import Template3BackPng from "../../assets/image/Template3FrontPng.png";
 
 import Template4FrontPng from "../../assets/image/Template4FrontPng.png";
 import Template4BackPng from "../../assets/image/Template4BackPng.png";
@@ -128,6 +128,8 @@ const Finish = () => {
       <div className="main">
         <SwitchTemp templateNumber={templateNumber} />
       </div>
+      <button className="save">저장</button>
+      <button className="qr">QR 코드</button>
     </FinishStyle>
   );
 };

@@ -43,9 +43,9 @@ const SelectStyle = styled.div`
 
   ul {
     position: absolute;
-    left: 32px;
+    left: 0px;
 
-    top: 60px;
+    top: 100px;
 
     padding-top: 27px;
     padding-bottom: 37px;
