@@ -1,6 +1,8 @@
 import CustomSelect from "../common/Select/CustomSelect";
 import SelectTemplate from "../common/Select/SelectTemplate";
 import FinishStyle from "./finish.style";
+import axios from "axios";
+import ifconfig from "../../config/ipconfig.json";
 
 import React, { lazy, useEffect, useState } from "react";
 import Template1FrontPng from "../../assets/image/Template1FrontPng.png";
@@ -108,13 +110,20 @@ const templateList = [
 
 const Finish = () => {
   const [templateNumber, setTemplateNumber] = useState(1);
+  const [data, setData] = useState();
   const changeTemplateNumber = (e) => {
     setTemplateNumber(e);
   };
 
   useEffect(() => {
-    console.log(templateNumber);
-  }, [templateNumber]);
+    async function fetchData() {
+      const id = localStorage.getItem("draft_id");
+      const data = await axios.get(`${ifconfig.url}/draft/${id}`);
+      console.log(data.data);
+      setData(data.data);
+    }
+    fetchData();
+  }, []);
 
   return (
     <FinishStyle>
@@ -126,7 +135,7 @@ const Finish = () => {
         />
       </div>
       <div className="main">
-        <SwitchTemp templateNumber={templateNumber} />
+        <SwitchTemp templateNumber={templateNumber} data={data} />
       </div>
       <button className="save">저장</button>
       <button className="qr">QR 코드</button>

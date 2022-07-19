@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import Template1 from "./Template1/Template1Front";
 import Template1Back from "./Template1/Template1Back";
 import Template2Front from "./Template2/Template2Front";
@@ -18,57 +18,57 @@ import Template8Back from "./Template8/Template8Back";
 import Template9Front from "./Template9/Template9Front";
 import Template9Back from "./Template9/Template9Back";
 
-const SwitchTemp = ({ templateNumber }) => {
+const SwitchTemp = memo(({ templateNumber, data }) => {
   return (
     <>
       {templateNumber === 1 ? (
         <>
-          <Template1 size="large" />
-          <Template1Back size="large" />
+          <Template1 size="large" data={data} />
+          <Template1Back size="large" data={data} />
         </>
       ) : templateNumber === 2 ? (
         <>
-          <Template2Front size="large" />
-          <Template2Back size="large" />
+          <Template2Front size="large" data={data} />
+          <Template2Back size="large" data={data} />
         </>
       ) : templateNumber === 3 ? (
         <>
-          <Template3Front size="large" />
-          <Template3Back size="large" />
+          <Template3Front size="large" data={data} />
+          <Template3Back size="large" data={data} />
         </>
       ) : templateNumber === 4 ? (
         <>
-          <Template4Front size="large" />
-          <Template4Back size="large" />
+          <Template4Front size="large" data={data} />
+          <Template4Back size="large" data={data} />
         </>
       ) : templateNumber === 5 ? (
         <>
-          <Template5Front size="large" />
-          <Template5Back size="large" />
+          <Template5Front size="large" data={data} />
+          <Template5Back size="large" data={data} />
         </>
       ) : templateNumber === 6 ? (
         <>
-          <Template6Front size="large" />
-          <Template6Back size="large" />
+          <Template6Front size="large" data={data} />
+          <Template6Back size="large" data={data} />
         </>
       ) : templateNumber === 7 ? (
         <>
-          <Template7Front size="large" />
-          <Template7Back size="large" />
+          <Template7Front size="large" data={data} />
+          <Template7Back size="large" data={data} />
         </>
       ) : templateNumber === 8 ? (
         <>
-          <Template8Front size="large" />
-          <Template8Back size="large" />
+          <Template8Front size="large" data={data} />
+          <Template8Back size="large" data={data} />
         </>
       ) : (
         <>
-          <Template9Front size="large" />
-          <Template9Back size="large" />
+          <Template9Front size="large" data={data} />
+          <Template9Back size="large" data={data} />
         </>
       )}
     </>
   );
-};
+});
 
 export default SwitchTemp;
