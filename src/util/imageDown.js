@@ -1,5 +1,5 @@
 import Template9Front from "../components/Template9/Template9Front";
-// dom-to-image
+// dom-to-image -> image 변경
 
 const onDownloadBtn = () => {
   const card = <Template9Front />;
