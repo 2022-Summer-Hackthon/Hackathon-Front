@@ -1,19 +1,19 @@
 import styled from "styled-components";
 
 const Template3BackStyle = styled.div`
-  .back {
-    border: 1px solid black;
-
+  .normal-back {
     width: 616px;
     height: 350px;
     position: relative;
+
+    background: white;
   }
 
-  .info {
+  .normal-info {
     margin-left: 30px;
   }
 
-  .title3 {
+  .normal-title3 {
     position: absolute;
     top: 36px;
 
@@ -32,7 +32,7 @@ const Template3BackStyle = styled.div`
     color: #000000;
   }
 
-  .title4 {
+  .normal-title4 {
     position: absolute;
     top: 64px;
 
@@ -50,7 +50,7 @@ const Template3BackStyle = styled.div`
 
     color: #9f9f9f;
   }
-  .value {
+  .normal-value {
     position: absolute;
     right: 38px;
 
@@ -59,7 +59,7 @@ const Template3BackStyle = styled.div`
     border: 1px solid black;
   }
 
-  .job {
+  .normal-job {
     position: absolute;
     top: 227px;
     right: 93px;
@@ -77,14 +77,14 @@ const Template3BackStyle = styled.div`
     color: #000000;
   }
 
-  .kang {
+  .normal-kang {
     position: absolute;
     top: 224px;
     right: 38px;
     width: 180px;
   }
 
-  .adress {
+  .normal-adress {
     position: absolute;
     top: 253px;
     right: 38px;
@@ -104,7 +104,7 @@ const Template3BackStyle = styled.div`
     color: #000000;
   }
 
-  .tel {
+  .normal-tel {
     position: absolute;
     top: 267px;
     right: 195px;
@@ -124,7 +124,7 @@ const Template3BackStyle = styled.div`
     color: #000000;
   }
 
-  .mobile {
+  .normal-mobile {
     position: absolute;
     top: 267px;
     right: 38px;
@@ -144,7 +144,7 @@ const Template3BackStyle = styled.div`
     color: #000000;
   }
 
-  .email {
+  .normal-email {
     position: absolute;
     top: 282px;
     right: 222px;
@@ -164,7 +164,7 @@ const Template3BackStyle = styled.div`
     color: #000000;
   }
 
-  .git {
+  .normal-git {
     position: absolute;
     top: 282px;
     right: 38px;
@@ -187,7 +187,7 @@ const Template3BackStyle = styled.div`
   /*---------------------------------------*/
 
   .large-back {
-    border: 1px solid black;
+    background: white;
 
     width: 989px;
     height: 597px;

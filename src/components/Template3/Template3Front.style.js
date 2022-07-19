@@ -1,24 +1,23 @@
 import styled from "styled-components";
 
 const Template3FrontStyle = styled.div`
-  .front {
+  .normal-front {
     width: 616px;
     height: 351px;
 
     position: relative;
-    border: 1px solid black;
 
     background-color: #fff;
   }
 
-  .top {
+  .normal-top {
     width: 100%;
     height: 50%;
 
     background-color: #fce0df;
   }
 
-  h1 {
+  .normal-title1 {
     position: absolute;
     top: 125px;
     left: 218px;
@@ -35,7 +34,7 @@ const Template3FrontStyle = styled.div`
     color: #000000;
   }
 
-  .title2 {
+  .normal-title2 {
     position: absolute;
     left: 206px;
     top: 180px;
@@ -60,7 +59,6 @@ const Template3FrontStyle = styled.div`
     height: 597px;
 
     position: relative;
-    border: 1px solid black;
 
     background-color: #fff;
   }
