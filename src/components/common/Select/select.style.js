@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const SelectStyle = styled.div`
   padding-top: 27px;
-  position: relative;
-
+  position: sticky;
+  top: 0;
   .select {
     position: relative;
 

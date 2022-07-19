@@ -12,7 +12,12 @@ import Template2Front from "./components/Template2/Template2Front";
 import Template2Back from "./components/Template2/Template2Back";
 import Template9Front from "./components/Template9/Template9Front";
 import Template9Back from "./components/Template9/Template9Back";
-
+import Template6Front from "./components/Template6/Template6Front";
+import Template6Back from "./components/Template6/Template6Back";
+import Template7Front from "./components/Template7/Template7Front";
+import Template7Back from "./components/Template7/Template7Back";
+import Template8Front from "./components/Template8/Template8Front";
+import Template8Back from "./components/Template8/Template8Back";
 const Main = lazy(() => import("./pages/Main/MainPage"));
 const Nav = lazy(() => import("./components/Nav/Nav"));
 const Template5Front = lazy(() =>
@@ -94,6 +99,33 @@ const App = () => {
             <Suspense fallback={<div>Loading...</div>}>
               <Template3Front size="large" />
               <Template3Back size="large" />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/template6"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <Template6Front size="large" />
+              <Template6Back size="large" />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/template7"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <Template7Front size="large" />
+              <Template7Back size="large" />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/template8"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <Template8Front size="large" />
+              <Template8Back size="large" />
             </Suspense>
           }
         />
