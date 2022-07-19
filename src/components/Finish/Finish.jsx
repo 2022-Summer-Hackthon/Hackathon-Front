@@ -4,7 +4,10 @@ import FinishStyle from "./finish.style";
 import axios from "axios";
 import ifconfig from "../../config/ipconfig.json";
 
-import React, { lazy, useEffect, useState } from "react";
+import domtoimage from "dom-to-image";
+import { saveAs } from "file-saver";
+
+import React, { useRef, lazy, useEffect, useState } from "react";
 import Template1FrontPng from "../../assets/image/Template1FrontPng.png";
 import Template1BackPng from "../../assets/image/Template1BackPng.png";
 
@@ -125,6 +128,15 @@ const Finish = () => {
     fetchData();
   }, []);
 
+  const onClickSave = () => {
+    domtoimage.toBlob(document.querySelector(".card")).then((blob) => {
+      saveAs(blob, "cardFront.png");
+    });
+    domtoimage.toBlob(document.querySelector(".cardBack")).then((blob) => {
+      saveAs(blob, "cardBack.png");
+    });
+  };
+
   return (
     <FinishStyle>
       <div className="bar">
@@ -137,7 +149,9 @@ const Finish = () => {
       <div className="main">
         <SwitchTemp templateNumber={templateNumber} data={data} />
       </div>
-      <button className="save">저장</button>
+      <button className="save" onClick={onClickSave}>
+        저장
+      </button>
       <button className="qr">QR 코드</button>
     </FinishStyle>
   );

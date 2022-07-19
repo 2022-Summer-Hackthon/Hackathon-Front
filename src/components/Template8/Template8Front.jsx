@@ -4,7 +4,7 @@ import Template8png from "../../assets/image/Template8png.png";
 const Template8Front = memo(({ size }) => {
   return (
     <Template8FrontStyle>
-      <div className={`${size}`}>
+      <div className={`${size} card`}>
         <img src={Template8png} className={`${size}-img`} />
         <div className={`${size}-infoDiv`}>
           <span>대구소프트웨어마이스터고등학교</span>

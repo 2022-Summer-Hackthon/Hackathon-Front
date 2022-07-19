@@ -4,7 +4,7 @@ import Template4BackStyle from "./template4Back.style";
 const Template4Back = memo(({ size }) => {
   return (
     <Template4BackStyle>
-      <div className={`${size}`}>
+      <div className={`${size} cardBack`}>
         <div className={`${size}-row-line`}></div>
         <div className={`${size}-column-line`}></div>
         <div className={`${size}-personal`}>

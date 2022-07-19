@@ -4,7 +4,7 @@ import Template5Style from "./template5Front.style";
 const Template5Front = memo(({ size }) => {
   return (
     <Template5Style>
-      <div className={`${size}`}>
+      <div className={`${size} card`}>
         <div className={`${size}-logo`}>
           <div className={`${size}-circle`}>D</div>
           <div className={`${size}-circle`}>G</div>

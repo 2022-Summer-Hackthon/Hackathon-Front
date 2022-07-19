@@ -4,7 +4,7 @@ import Template5BackStyle from "./template5Back.style";
 const Template5Back = memo(({ size }) => {
   return (
     <Template5BackStyle>
-      <dir className={`${size}`}>
+      <dir className={`${size} cardBack`}>
         <div className={`${size}-rogo`}>
           <div className={`${size}-circle`}>D</div>
           <div className={`${size}-circle`}>G</div>

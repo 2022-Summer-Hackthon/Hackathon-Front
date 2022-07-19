@@ -6,7 +6,7 @@ import Template7BackStyle from "../Template7/Template7Back.style";
 const Template7Back = memo(({ size }) => {
   return (
     <Template7BackStyle>
-      <div className={`${size}`}>
+      <div className={`${size} cardBack`}>
         <div className={`${size}-personInfo`}>
           <div className={`${size}-nameDiv`}>
             <p>

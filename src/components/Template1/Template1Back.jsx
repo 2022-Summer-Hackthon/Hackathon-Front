@@ -5,7 +5,7 @@ import Github from "../../assets/image/Github";
 const Template1Back = memo(({ size, data }) => {
   return (
     <Template1BackStyle>
-      <div className={`${size}-back`}>
+      <div className={`${size}-back cardBack`}>
         <div className={`${size}-school`}>
           <h1 className={`${size}-title1`}>
             {data ? data.carriers[0].carrier_name : "not"}

@@ -5,7 +5,7 @@ import LargeZline from "../../assets/image/LargeZline";
 const Template6Front = memo(({ size }) => {
   return (
     <Template6FrontStyle>
-      <div className={`${size}`}>
+      <div className={`${size} card`}>
         <div>
           <span className={`${size}-highlightD`}>D</span>
           <span className={`${size}-highlightG`}>G</span>

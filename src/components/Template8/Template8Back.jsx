@@ -4,7 +4,7 @@ import Template8BackStyle from "./Template8Back.style";
 const Template8Back = memo(({ size }) => {
   return (
     <Template8BackStyle>
-      <div className={`${size}`}>
+      <div className={`${size} cardBack`}>
         <div className={`${size}-school`}>
           <span className={`${size}-title`}>
             Daegu
