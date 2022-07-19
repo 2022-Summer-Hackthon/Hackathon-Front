@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Template2FrontStyle = styled.div`
-  .nomal-front {
+  .normal-front {
     width: 616px;
     height: 351px;
     display: flex;
@@ -12,10 +12,10 @@ const Template2FrontStyle = styled.div`
     background-color: white;
     border: 1px solid black;
   }
-  .nomal-title {
+  .normal-title {
     color: black;
   }
-  .nomal-title1 {
+  .normal-title1 {
     width: 431px;
     height: 110px;
 
@@ -28,7 +28,7 @@ const Template2FrontStyle = styled.div`
 
     color: #000000;
   }
-  .nomal-title2 {
+  .normal-title2 {
     width: 431px;
     height: 23px;
 

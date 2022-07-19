@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Template9FrontStyle = styled.div`
-  .nomal {
+  .normal {
     width: 616px;
     height: 351px;
 
@@ -32,7 +32,7 @@ const Template9FrontStyle = styled.div`
     }
   }
 
-  .nomal-title {
+  .normal-title {
     position: absolute;
     left: 279px;
     bottom: 109px;

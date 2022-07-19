@@ -17,7 +17,7 @@ const Template4FrontStyle = styled.div`
     flex-direction: column;
   }
 
-  .nomal {
+  .normal {
     width: 616px;
     height: 351px;
 
@@ -33,7 +33,7 @@ const Template4FrontStyle = styled.div`
     flex-direction: column;
   }
 
-  .nomal-line {
+  .normal-line {
     width: 100%;
     height: 2px;
     background: #242424;
@@ -42,7 +42,7 @@ const Template4FrontStyle = styled.div`
     top: 180px;
   }
 
-  .nomal-title {
+  .normal-title {
     text-align: center;
     width: 122px;
     height: 29px;
@@ -57,7 +57,7 @@ const Template4FrontStyle = styled.div`
     position: relative;
     top: 10px;
   }
-  .nomal-url {
+  .normal-url {
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;

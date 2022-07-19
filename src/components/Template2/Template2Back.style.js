@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Template2BackStyle = styled.div`
-  .nomal-back {
+  .normal-back {
     /*뒷면*/
     width: 616px;
     height: 351px;
@@ -11,12 +11,12 @@ const Template2BackStyle = styled.div`
     border: 1px solid black;
   }
 
-  .nomal-intro {
+  .normal-intro {
     /*묶은 div*/
     margin-left: 28px;
   }
 
-  .nomal-name {
+  .normal-name {
     /*Kang SeongHun*/
     position: absolute;
     width: 222px;
@@ -35,7 +35,7 @@ const Template2BackStyle = styled.div`
     color: #000000;
   }
 
-  .nomal-career {
+  .normal-career {
     position: absolute;
     /*Developer*/
 
@@ -53,7 +53,7 @@ const Template2BackStyle = styled.div`
     color: #797979;
   }
 
-  .nomal-text {
+  .normal-text {
     /*더 좋은 개발자*/
     position: absolute;
     width: 170px;
@@ -69,7 +69,7 @@ const Template2BackStyle = styled.div`
     color: #797979;
   }
 
-  .nomal-border-right {
+  .normal-border-right {
     width: 4px;
     height: 96px;
     background-color: black;
@@ -79,7 +79,7 @@ const Template2BackStyle = styled.div`
     top: 114px;
   }
 
-  .nomal-border-line {
+  .normal-border-line {
     width: 560px;
     height: 0px;
     position: absolute;
@@ -88,19 +88,19 @@ const Template2BackStyle = styled.div`
     border: 1px solid black;
   }
 
-  .nomal-call {
+  .normal-call {
     position: absolute;
     left: 299px;
     top: 119px;
   }
 
-  .nomal-git {
+  .normal-git {
     position: absolute;
     left: 299px;
     top: 153px;
   }
 
-  .nomal-adress {
+  .normal-adress {
     position: absolute;
     top: 186px;
     left: 299px;
