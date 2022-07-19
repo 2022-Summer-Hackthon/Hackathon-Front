@@ -25,6 +25,7 @@ const Form = memo(() => {
   const sendInfo = async (e) => {
     e.preventDefault();
     const data = await axios.post(`${ipconfig.url}/draft/`, {
+      custom_url: facebook,
       github_url: github,
     });
     localStorage.setItem("draft_id", data.data.draft_id);
@@ -34,7 +35,7 @@ const Form = memo(() => {
   return (
     <form onSubmit={sendInfo}>
       <Input name="velog" value={velog} change={onChangeVelog} />
-      <Input name="Facebook" value={facebook} change={onChangeFacebook} />
+      <Input name="url" value={facebook} change={onChangeFacebook} />
       <Input name="깃허브" value={github} change={onChangeGihub} />
       <button type="hidden" title="submit"></button>
     </form>

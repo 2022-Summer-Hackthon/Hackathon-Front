@@ -9,6 +9,14 @@ const Template1BackStyle = styled.div`
     color: black;
   }
 
+  input {
+    border: none;
+    outline: none;
+    width: auto;
+
+    text-align: right;
+  }
+
   .normal-school {
     position: absolute;
     top: 35px;
@@ -113,13 +121,19 @@ const Template1BackStyle = styled.div`
 
   .large-title1 {
     display: flex;
+    width: 900px;
     align-items: flex-end;
+    text-align: right;
     font-size: 70px;
     color: #9fccaf;
   }
   .large-title2 {
+    position: absolute;
+    right: -360px;
     display: flex;
     align-items: flex-end;
+    position: relative;
+    text-align: right;
     font-size: 35px;
     color: #9fccaf;
   }
@@ -140,6 +154,8 @@ const Template1BackStyle = styled.div`
   }
 
   .large-career {
+    text-align: left;
+    background: none;
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
@@ -149,6 +165,10 @@ const Template1BackStyle = styled.div`
   }
 
   .large-name {
+    position: absolute;
+    left: 180px;
+    text-align: left;
+    background: none;
     font-family: "Arial";
     font-style: normal;
     font-weight: 700;

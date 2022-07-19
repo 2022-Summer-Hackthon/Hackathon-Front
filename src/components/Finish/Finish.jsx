@@ -4,10 +4,10 @@ import FinishStyle from "./finish.style";
 import axios from "axios";
 import ifconfig from "../../config/ipconfig.json";
 
+import React, { lazy, useCallback, useEffect, useState } from "react";
 import domtoimage from "dom-to-image";
 import { saveAs } from "file-saver";
 
-import React, { useRef, lazy, useEffect, useState } from "react";
 import Template1FrontPng from "../../assets/image/Template1FrontPng.png";
 import Template1BackPng from "../../assets/image/Template1BackPng.png";
 
@@ -118,6 +118,25 @@ const Finish = () => {
     setTemplateNumber(e);
   };
 
+  const changeName = useCallback((e) => {
+    setData({
+      ...data,
+      name: e.target.value,
+    });
+  });
+  const changeJob = useCallback((e) => {
+    setData({
+      ...data,
+      job_type: e.target.value,
+    });
+  });
+  const changeGRADUATE = useCallback((e) => {
+    setData({
+      ...data,
+      carriers: ([...data.carriers][0] = e.target.value),
+    });
+  });
+
   useEffect(() => {
     async function fetchData() {
       const id = localStorage.getItem("draft_id");
@@ -128,6 +147,10 @@ const Finish = () => {
     fetchData();
   }, []);
 
+  useEffect(() => {
+    console.log(data);
+  });
+  
   const onClickSave = () => {
     domtoimage.toBlob(document.querySelector(".card")).then((blob) => {
       saveAs(blob, "cardFront.png");
@@ -147,7 +170,13 @@ const Finish = () => {
         />
       </div>
       <div className="main">
-        <SwitchTemp templateNumber={templateNumber} data={data} />
+        <SwitchTemp
+          templateNumber={templateNumber}
+          data={data}
+          changeName={changeName}
+          changeJob={changeJob}
+          changeGRADUATE={changeGRADUATE}
+        />
       </div>
       <button className="save" onClick={onClickSave}>
         저장
