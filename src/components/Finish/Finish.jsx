@@ -4,7 +4,7 @@ import FinishStyle from "./finish.style";
 import axios from "axios";
 import ifconfig from "../../config/ipconfig.json";
 
-import React, { lazy, useEffect, useState } from "react";
+import React, { lazy, useCallback, useEffect, useState } from "react";
 import Template1FrontPng from "../../assets/image/Template1FrontPng.png";
 import Template1BackPng from "../../assets/image/Template1BackPng.png";
 
@@ -115,6 +115,25 @@ const Finish = () => {
     setTemplateNumber(e);
   };
 
+  const changeName = useCallback((e) => {
+    setData({
+      ...data,
+      name: e.target.value,
+    });
+  });
+  const changeJob = useCallback((e) => {
+    setData({
+      ...data,
+      job_type: e.target.value,
+    });
+  });
+  const changeGRADUATE = useCallback((e) => {
+    setData({
+      ...data,
+      carriers: ([...data.carriers][0] = e.target.value),
+    });
+  });
+
   useEffect(() => {
     async function fetchData() {
       const id = localStorage.getItem("draft_id");
@@ -124,6 +143,10 @@ const Finish = () => {
     }
     fetchData();
   }, []);
+
+  useEffect(() => {
+    console.log(data);
+  });
 
   return (
     <FinishStyle>
@@ -135,7 +158,13 @@ const Finish = () => {
         />
       </div>
       <div className="main">
-        <SwitchTemp templateNumber={templateNumber} data={data} />
+        <SwitchTemp
+          templateNumber={templateNumber}
+          data={data}
+          changeName={changeName}
+          changeJob={changeJob}
+          changeGRADUATE={changeGRADUATE}
+        />
       </div>
       <button className="save">저장</button>
       <button className="qr">QR 코드</button>

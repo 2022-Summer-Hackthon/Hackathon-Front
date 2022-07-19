@@ -2,41 +2,75 @@ import React, { memo } from "react";
 import Template1BackStyle from "./template1Back.style";
 import Github from "../../assets/image/Github";
 
-const Template1Back = memo(({ size, data }) => {
-  return (
-    <Template1BackStyle>
-      <div className={`${size}-back`}>
-        <div className={`${size}-school`}>
-          <h1 className={`${size}-title1`}>
-            {data ? data.carriers[0].carrier_name : "not"}
-          </h1>
-          <h2 className={`${size}-title2`}>dgsw.hs.kr</h2>
-        </div>
-        <div className={`${size}-contents`}>
-          <p className={`${size}-career`}>{data ? data.job_type : "not"}</p>
-          <p className={`${size}-name`}>{data ? data.name : "not"}</p>
-        </div>
-        <div className={`${size}-info`}>
-          <div className="flex">
-            <div>
-              <Github />
-              <p className="git">github.com/ksh5324</p>
-            </div>
-            <div>
-              <Github />
-              <p className="call">010-2237-2925</p>
-            </div>
+const Template1Back = memo(
+  ({ size, data, changeName, changeJob, changeGRADUATE }) => {
+    return (
+      <Template1BackStyle>
+        <div className={`${size}-back`}>
+          <div className={`${size}-school`}>
+            <input
+              className={`${size}-title1`}
+              type="text"
+              onChange={changeGRADUATE}
+              value={data !== undefined ? data.carriers[0].carrier_name : "not"}
+            />
           </div>
-          <p className={`${size}-notion`}>
-            <Github />
-            <span>
-              ksh5324.notion.site/ksh5324/c6e568cba1484be48d11c21568a06fe9
-            </span>
-          </p>
+          <div className={`${size}-contents`}>
+            <input
+              className={`${size}-career`}
+              value={data !== undefined ? data.job_type : "not"}
+              onChange={changeJob}
+            />
+            <input
+              className={`${size}-name`}
+              value={data !== undefined ? data.name : "not"}
+              onChange={changeName}
+            />
+          </div>
+          <div className={`${size}-info`}>
+            <div className="flex">
+              <div>
+                <Github />
+                <input
+                  className={`git`}
+                  value={
+                    data !== undefined && data.user_info_list.length >= 3
+                      ? data.user_info_list[2].value
+                      : "not"
+                  }
+                  onChange={changeName}
+                />
+              </div>
+              <div>
+                <Github />
+                <input
+                  className={`git`}
+                  value={
+                    data !== undefined && data.user_info_list.length >= 2
+                      ? data.user_info_list[1].value
+                      : "not"
+                  }
+                  onChange={changeName}
+                />
+              </div>
+            </div>
+            <p className={`${size}-notion`}>
+              <Github />
+              <input
+                className={`git`}
+                value={
+                  data !== undefined && data.user_info_list.length >= 1
+                    ? data.user_info_list[0].value
+                    : "not"
+                }
+                onChange={changeName}
+              />
+            </p>
+          </div>
         </div>
-      </div>
-    </Template1BackStyle>
-  );
-});
+      </Template1BackStyle>
+    );
+  }
+);
 
 export default Template1Back;
