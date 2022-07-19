@@ -70,8 +70,8 @@ const App = () => {
           path="/template9"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template9Front size="nomal" />
-              <Template9Back size="nomal" />
+              <Template9Front size="large" />
+              <Template9Back size="large" />
             </Suspense>
           }
         />
