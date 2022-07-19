@@ -71,6 +71,26 @@ const Template1BackStyle = styled.div`
   .flex {
     display: flex;
     margin-bottom: 11px;
+    position: relative;
+    top: 5px;
+
+    div {
+      display: flex;
+      align-items: flex-end;
+
+      p {
+        margin-left: 2px;
+      }
+    }
+  }
+
+  .normal-notion {
+    display: flex;
+    position: relative;
+    top: 5px;
+    span {
+      margin-left: 10px;
+    }
   }
 
   .call {
@@ -87,20 +107,20 @@ const Template1BackStyle = styled.div`
 
   .large-school {
     position: absolute;
-    top: 45px;
-    right: 37px;
+    top: 55px;
+    right: 57px;
   }
 
   .large-title1 {
     display: flex;
     align-items: flex-end;
-    font-size: 60px;
+    font-size: 70px;
     color: #9fccaf;
   }
   .large-title2 {
     display: flex;
     align-items: flex-end;
-    font-size: 30px;
+    font-size: 35px;
     color: #9fccaf;
   }
 
@@ -110,8 +130,8 @@ const Template1BackStyle = styled.div`
     color: black;
 
     position: absolute;
-    left: 24px;
-    bottom: 76px;
+    left: 40px;
+    bottom: 126px;
 
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(159, 204, 175, 1);
@@ -123,9 +143,8 @@ const Template1BackStyle = styled.div`
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 33px;
-    /* identical to box height */
+    font-size: 40px;
+    line-height: 50px;
     color: #000000;
   }
 
@@ -133,7 +152,7 @@ const Template1BackStyle = styled.div`
     font-family: "Arial";
     font-style: normal;
     font-weight: 700;
-    font-size: 33px;
+    font-size: 35px;
     line-height: 36px;
     letter-spacing: 0.2em;
     margin-left: 20px;
@@ -142,8 +161,8 @@ const Template1BackStyle = styled.div`
 
   .large-info {
     position: absolute;
-    left: 29px;
-    bottom: 17px;
+    left: 40px;
+    bottom: 47px;
 
     font-size: 20px;
   }
@@ -151,10 +170,29 @@ const Template1BackStyle = styled.div`
   .flex {
     display: flex;
     margin-bottom: 11px;
+
+    font-size: 27px;
+
+    div {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin-left: 10px;
+      }
+    }
+
+    div + div {
+      margin-left: 19px;
+    }
   }
 
   .call {
-    margin-left: 19px;
+    font-size: 27px;
+  }
+
+  span {
+    margin-left: 10px;
   }
 `;
 

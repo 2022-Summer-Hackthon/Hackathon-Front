@@ -34,8 +34,10 @@ const FinishStyle = styled.div`
     width: 80px;
     height: 80px;
 
+    border: 1px solid black;
+    border-radius: 10px;
+
     background: white;
-    border: none;
 
     :hover {
       background: rgba(0, 0, 0, 0.1);
@@ -50,8 +52,10 @@ const FinishStyle = styled.div`
     width: 80px;
     height: 80px;
 
-    border: none;
     background: white;
+
+    border: 1px solid black;
+    border-radius: 10px;
 
     :hover {
       background: rgba(0, 0, 0, 0.1);

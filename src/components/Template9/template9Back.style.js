@@ -122,7 +122,7 @@ const Template9BackStyle = styled.div`
   .large-info {
     position: absolute;
     bottom: 259px;
-    right: 100px;
+    right: 250px;
 
     width: 271px;
     height: 219px;

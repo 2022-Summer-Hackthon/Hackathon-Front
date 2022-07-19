@@ -1,4 +1,5 @@
 import React, { memo } from "react";
+import Github from "../../assets/image/Github";
 import Template2BackStyle from "./Template2Back.style";
 
 const Template2Back = memo(({ size }) => {
@@ -16,9 +17,18 @@ const Template2Back = memo(({ size }) => {
         <div className={`${size}-border-line`}></div>
 
         <div className={`${size}-info`}>
-          <p className={`${size}-call`}>010-2237-2925</p>
-          <p className={`${size}-git`}>github.com/ksh5324</p>
-          <p className={`${size}-adress`}>대구 달성군</p>
+          <p className={`${size}-call`}>
+            <Github />
+            <span>010-2237-2925</span>
+          </p>
+          <p className={`${size}-git`}>
+            <Github />
+            <span>github.com/ksh5324</span>
+          </p>
+          <p className={`${size}-adress`}>
+            <Github />
+            <span>대구 달성군</span>
+          </p>
         </div>
       </div>
     </Template2BackStyle>

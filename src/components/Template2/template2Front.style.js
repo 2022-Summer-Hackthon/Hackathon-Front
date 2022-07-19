@@ -58,13 +58,13 @@ const Template2FrontStyle = styled.div`
     color: black;
   }
   h1 {
-    width: 431px;
+    width: 551px;
     height: 110px;
 
     font-family: "Arial";
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 68px;
     line-height: 55px;
     letter-spacing: 0.05em;
 
@@ -77,8 +77,8 @@ const Template2FrontStyle = styled.div`
     font-family: "Arial";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 30px;
+    line-height: 55px;
     /* identical to box height */
 
     letter-spacing: 0.05em;

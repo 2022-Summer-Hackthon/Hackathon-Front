@@ -209,7 +209,7 @@ const Template3BackStyle = styled.div`
     font-family: "Arial";
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 45px;
     line-height: 39px;
     /* identical to box height */
 
@@ -228,7 +228,7 @@ const Template3BackStyle = styled.div`
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 26px;
     line-height: 26px;
     letter-spacing: 0.05em;
 
@@ -248,13 +248,13 @@ const Template3BackStyle = styled.div`
     top: 360px;
     right: 147px;
 
-    width: 185px;
+    width: 225px;
     height: 28px;
 
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 28px;
     /* identical to box height */
 
@@ -271,12 +271,9 @@ const Template3BackStyle = styled.div`
     font-family: "Arial";
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 28px;
-    /* identical to box height */
-
     letter-spacing: 0.1em;
-
     color: #000000;
   }
 
@@ -284,19 +281,14 @@ const Template3BackStyle = styled.div`
     position: absolute;
     top: 402px;
     right: 56px;
-
     width: 460px;
     height: 28px;
-
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 28px;
-    /* identical to box height */
-
     text-align: right;
-
     color: #000000;
   }
 
@@ -305,13 +297,13 @@ const Template3BackStyle = styled.div`
     top: 447px;
     right: 323px;
 
-    width: 194px;
+    width: 254px;
     height: 28px;
 
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 28px;
     /* identical to box height */
 
@@ -325,18 +317,15 @@ const Template3BackStyle = styled.div`
     top: 447px;
     right: 56px;
 
-    width: 245px;
+    width: 305px;
     height: 28px;
 
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 28px;
-    /* identical to box height */
-
     text-align: right;
-
     color: #000000;
   }
 
@@ -345,18 +334,15 @@ const Template3BackStyle = styled.div`
     top: 492px;
     right: 373px;
 
-    width: 337px;
+    width: 367px;
     height: 28px;
 
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 28px;
-    /* identical to box height */
-
     text-align: right;
-
     color: #000000;
   }
 
@@ -365,13 +351,13 @@ const Template3BackStyle = styled.div`
     top: 492px;
     right: 56px;
 
-    width: 300px;
+    width: 350px;
     height: 28px;
 
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 28px;
     /* identical to box height */
 

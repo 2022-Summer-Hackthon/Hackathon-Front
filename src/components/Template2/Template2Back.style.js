@@ -91,18 +91,39 @@ const Template2BackStyle = styled.div`
     position: absolute;
     left: 299px;
     top: 119px;
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 10px;
+    }
   }
 
   .normal-git {
     position: absolute;
     left: 299px;
     top: 153px;
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 10px;
+    }
   }
 
   .normal-adress {
     position: absolute;
     top: 186px;
     left: 299px;
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 10px;
+    }
   }
   /*mmmmmmmmmmmmmmmm*/
   .large-back {
@@ -128,7 +149,7 @@ const Template2BackStyle = styled.div`
     font-family: "Arial";
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 28px;
     /* identical to box height */
 
@@ -148,9 +169,8 @@ const Template2BackStyle = styled.div`
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 23px;
-    /* identical to box height */
+    font-size: 30px;
+    line-height: 33px;
 
     color: #797979;
   }
@@ -158,22 +178,22 @@ const Template2BackStyle = styled.div`
   .large-text {
     /*더 좋은 개발자*/
     position: absolute;
-    width: 24 0px;
+    width: 240px;
     height: 50px;
-    top: 216px;
+    top: 236px;
     font-family: "Arial";
     font-style: normal;
     font-weight: 700;
-    font-size: 17px;
-    line-height: 15px;
+    font-size: 25px;
+    line-height: 30px;
     letter-spacing: 0.05em;
 
     color: #797979;
   }
 
   .large-border-right {
-    width: 4px;
-    height: 195px;
+    width: 7px;
+    height: 225px;
     background-color: black;
 
     position: absolute;
@@ -187,32 +207,49 @@ const Template2BackStyle = styled.div`
 
     position: absolute;
     left: 24px;
-    bottom: 87px;
+    bottom: 127px;
     border: 1px solid black;
   }
 
   .large-call {
     position: absolute;
-    left: 500px;
+    left: 480px;
     top: 120px;
 
-    font-size: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-left: 10px;
+    }
   }
 
   .large-git {
     position: absolute;
-    left: 500px;
+    left: 480px;
     top: 200px;
 
-    font-size: 20px;
+    font-size: 30px;
+
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 10px;
+    }
   }
 
   .large-adress {
     position: absolute;
     top: 280px;
-    left: 500px;
+    left: 480px;
 
-    font-size: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 10px;
+    }
   }
 `;
 

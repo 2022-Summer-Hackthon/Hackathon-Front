@@ -62,14 +62,14 @@ const Template5Style = styled.div`
   }
 
   .large-logo {
-    width: 270px;
-    height: 133px;
+    width: 320px;
+    height: 153px;
 
     position: relative;
 
     .large-circle {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
       background: white;
 
@@ -78,7 +78,7 @@ const Template5Style = styled.div`
       align-items: center;
 
       font-weight: 600;
-      font-size: 31px;
+      font-size: 40px;
       color: #797671;
 
       position: absolute;
@@ -90,11 +90,11 @@ const Template5Style = styled.div`
     }
     .large-circle:nth-child(2) {
       bottom: 9px;
-      left: 64px;
+      left: 74px;
     }
     .large-circle:nth-child(3) {
       top: 6px;
-      left: 127px;
+      left: 147px;
     }
     .large-circle:nth-child(4) {
       bottom: 0;
