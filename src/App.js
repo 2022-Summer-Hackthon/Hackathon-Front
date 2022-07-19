@@ -2,6 +2,8 @@ import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Finish from "./components/Finish/Finish";
 
+import Template1Back from "./components/Template1/Template1Back";
+import Template1Front from "./components/Template1/Template1Front";
 import Template4Back from "./components/Template4/Template4Back";
 import Template4Front from "./components/Template4/Template4Front";
 import Template2Front from "./components/Template2/Template2Front";
@@ -72,6 +74,15 @@ const App = () => {
             <Suspense fallback={<div>Loading...</div>}>
               <Template9Front size="large" />
               <Template9Back size="large" />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/template1"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <Template1Front size="large" />
+              <Template1Back size="large" />
             </Suspense>
           }
         />
