@@ -14,6 +14,7 @@ const CustomSelect = () => {
   const changeValue = useCallback((e) => {
     setValue(e);
     setShow(false);
+    this.scrollTo({ left: 100, top: 100, behavior: "smooth" });
   }, []);
 
   return (
