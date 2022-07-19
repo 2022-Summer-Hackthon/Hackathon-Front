@@ -25,6 +25,39 @@ const FinishStyle = styled.div`
 
     width: calc(100vw - 555px);
   }
+
+  .save {
+    position: fixed;
+    top: 180px;
+    right: 50px;
+
+    width: 80px;
+    height: 80px;
+
+    background: white;
+    border: none;
+
+    :hover {
+      background: rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+  }
+  .qr {
+    position: fixed;
+    top: 280px;
+    right: 50px;
+
+    width: 80px;
+    height: 80px;
+
+    border: none;
+    background: white;
+
+    :hover {
+      background: rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+  }
 `;
 
 export default FinishStyle;
