@@ -7,7 +7,7 @@ import Template9Logo2 from "../../assets/image/template9Logo2";
 const Template9Back = memo(({ size }) => {
   return (
     <Template9BackStyle>
-      <div className={`${size}`}>
+      <div className={`${size} cardBack`}>
         <div className={`${size}-logo`}>
           {size === "large" ? <Template9Logo2 /> : <Template9Logo />}
           <div className={`${size}-title`}>DGSW</div>

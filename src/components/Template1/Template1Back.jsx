@@ -4,7 +4,7 @@ import Template1BackStyle from "./template1Back.style";
 const Template1Back = memo(({ size }) => {
   return (
     <Template1BackStyle>
-      <div className={`${size}-back`}>
+      <div className={`${size}-back cardBack`}>
         <div className={`${size}-school`}>
           <h1 className={`${size}-title1`}>DGSW</h1>
           <h2 className={`${size}-title2`}>dgsw.hs.kr</h2>

@@ -4,7 +4,7 @@ import Template7Style from "./Template7Front.style";
 const Template7Front = memo(({ size }) => {
   return (
     <Template7Style>
-      <div className={`${size}`}>
+      <div className={`${size} card`}>
         <div className={`${size}-stick1`}></div>
         <div className={`${size}-stick2`}></div>
         <div className={`${size}-stick3`}></div>
