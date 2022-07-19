@@ -85,9 +85,10 @@ const Template6BackStyle = styled.div`
   }
 
   .large-nameDiv {
-    margin: 0 0 10px 20px;
+    margin: 0 0 50px 40px;
   }
   .large-infoDiv {
+    margin: 30px 0 0 20px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
