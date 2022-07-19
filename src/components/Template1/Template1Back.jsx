@@ -2,17 +2,19 @@ import React, { memo } from "react";
 import Template1BackStyle from "./template1Back.style";
 import Github from "../../assets/image/Github";
 
-const Template1Back = memo(({ size }) => {
+const Template1Back = memo(({ size, data }) => {
   return (
     <Template1BackStyle>
       <div className={`${size}-back`}>
         <div className={`${size}-school`}>
-          <h1 className={`${size}-title1`}>DGSW</h1>
+          <h1 className={`${size}-title1`}>
+            {data ? data.carriers[0].carrier_name : "not"}
+          </h1>
           <h2 className={`${size}-title2`}>dgsw.hs.kr</h2>
         </div>
         <div className={`${size}-contents`}>
-          <p className={`${size}-career`}>Developer</p>
-          <p className={`${size}-name`}>강성훈</p>
+          <p className={`${size}-career`}>{data ? data.job_type : "not"}</p>
+          <p className={`${size}-name`}>{data ? data.name : "not"}</p>
         </div>
         <div className={`${size}-info`}>
           <div className="flex">

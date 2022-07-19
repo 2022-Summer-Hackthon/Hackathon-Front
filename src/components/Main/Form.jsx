@@ -1,6 +1,8 @@
 import React, { memo, useCallback, useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Input from "./Input";
+import axios from "axios";
+import ipconfig from "../../config/ipconfig.json";
 
 const Form = memo(() => {
   const [github, setGihub] = useState("");
@@ -20,12 +22,13 @@ const Form = memo(() => {
     setVelog(e.target.value);
   }, []);
 
-  const sendInfo = (e) => {
-    console.log(1);
+  const sendInfo = async (e) => {
     e.preventDefault();
+    const data = await axios.post(`${ipconfig.url}/draft/`, {
+      github_url: github,
+    });
+    localStorage.setItem("draft_id", data.data.draft_id);
     navigate("/finish");
-    // url 검사
-    // 서버 요청
   };
 
   return (
