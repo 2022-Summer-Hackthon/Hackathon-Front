@@ -87,6 +87,8 @@ const Template7Style = styled.div`
     flex-direction: column;
 
     background-color: #fff;
+
+    margin-bottom: 50px;
   }
   h1 {
     z-index: 999;

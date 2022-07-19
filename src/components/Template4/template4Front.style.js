@@ -15,6 +15,8 @@ const Template4FrontStyle = styled.div`
     align-items: center;
 
     flex-direction: column;
+
+    margin-bottom: 50px;
   }
 
   .normal {

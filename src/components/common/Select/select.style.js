@@ -4,6 +4,7 @@ const SelectStyle = styled.div`
   padding-top: 27px;
   position: sticky;
   top: 0;
+  background: white;
   .select {
     position: relative;
 
@@ -43,6 +44,8 @@ const SelectStyle = styled.div`
   ul {
     position: absolute;
     left: 32px;
+
+    top: 60px;
 
     padding-top: 27px;
     padding-bottom: 37px;

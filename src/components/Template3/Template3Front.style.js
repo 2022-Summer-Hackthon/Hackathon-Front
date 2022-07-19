@@ -61,6 +61,8 @@ const Template3FrontStyle = styled.div`
     position: relative;
 
     background-color: #fff;
+
+    margin-bottom: 50px;
   }
 
   .large-top {
