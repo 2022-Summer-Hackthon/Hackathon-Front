@@ -82,7 +82,6 @@ const Template2BackStyle = styled.div`
   .nomal-border-line {
     width: 560px;
     height: 0px;
-
     position: absolute;
     left: 24px;
     bottom: 87px;
