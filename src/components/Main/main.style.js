@@ -71,7 +71,7 @@ const MainStyle = styled.div`
 
       form {
         width: 481px;
-        height: 210px;
+        height: 260px;
         color: rgba(92, 92, 92, 1);
 
         input {
