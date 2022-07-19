@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Template9BackStyle = styled.div`
-  .nomal {
+  .normal {
     width: 616px;
     height: 351px;
 
@@ -24,12 +24,12 @@ const Template9BackStyle = styled.div`
     color: white;
   }
 
-  .nomal-logo {
+  .normal-logo {
     position: absolute;
     top: 75px;
     left: 73px;
 
-    .nomal-title {
+    .normal-title {
       font-weight: 800;
       font-size: 20px;
       line-height: 24px;
@@ -39,7 +39,7 @@ const Template9BackStyle = styled.div`
       margin-top: 19px;
     }
   }
-  .nomal-stick {
+  .normal-stick {
     position: absolute;
     top: 0;
     left: 208px;
@@ -49,7 +49,7 @@ const Template9BackStyle = styled.div`
     background: #ffffff;
     border-radius: 0px 0px 30px 30px;
   }
-  .nomal-info {
+  .normal-info {
     position: absolute;
     bottom: 59px;
     right: 67px;

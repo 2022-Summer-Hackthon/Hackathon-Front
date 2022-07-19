@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Template1BackStyle = styled.div`
-  .nomal-back {
+  .normal-back {
     position: relative;
     width: 616px;
     height: 351px;
@@ -9,20 +9,20 @@ const Template1BackStyle = styled.div`
     color: black;
   }
 
-  .nomal-school {
+  .normal-school {
     position: absolute;
     top: 35px;
     right: 27px;
   }
 
-  .nomal-title1 {
+  .normal-title1 {
     display: flex;
     align-items: flex-end;
     font-size: 40px;
     color: #9fccaf;
   }
 
-  .nomal-contents {
+  .normal-contents {
     display: flex;
     align-items: center;
     color: black;
@@ -37,7 +37,7 @@ const Template1BackStyle = styled.div`
     width: 569px;
   }
 
-  .nomal-career {
+  .normal-career {
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
@@ -47,11 +47,11 @@ const Template1BackStyle = styled.div`
     color: #000000;
   }
 
-  .nomal-notion {
+  .normal-notion {
     position: absolute;
   }
 
-  .nomal-name {
+  .normal-name {
     font-family: "Arial";
     font-style: normal;
     font-weight: 700;
@@ -62,7 +62,7 @@ const Template1BackStyle = styled.div`
     color: #000000;
   }
 
-  .nomal-info {
+  .normal-info {
     position: absolute;
     left: 29px;
     bottom: 17px;

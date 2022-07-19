@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Template1Front = styled.div`
-  .nomal-front {
+  .normal-front {
     width: 616px;
     height: 351px;
 
@@ -14,7 +14,7 @@ const Template1Front = styled.div`
     background: #9fccaf;
   }
 
-  .nomal-title1 {
+  .normal-title1 {
     font-family: "Happy Monkey";
     font-style: normal;
     font-weight: 400;
@@ -25,7 +25,7 @@ const Template1Front = styled.div`
     margin: 0;
   }
 
-  .nomal-title2 {
+  .normal-title2 {
     margin: 0;
     width: 71px;
     height: 17px;

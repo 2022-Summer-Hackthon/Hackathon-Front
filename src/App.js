@@ -4,6 +4,8 @@ import Finish from "./components/Finish/Finish";
 
 import Template1Back from "./components/Template1/Template1Back";
 import Template1Front from "./components/Template1/Template1Front";
+import Template3Back from "./components/Template3/Template3Back";
+import Template3Front from "./components/Template3/Template3Front";
 import Template4Back from "./components/Template4/Template4Back";
 import Template4Front from "./components/Template4/Template4Front";
 import Template2Front from "./components/Template2/Template2Front";
@@ -55,7 +57,7 @@ const App = () => {
           element={
             <Suspense fallback={<div>Loading...</div>}>
               <Template2Front size="large" />
-              <Template2Back size="nomal" />
+              <Template2Back size="normal" />
             </Suspense>
           }
         />
@@ -83,6 +85,15 @@ const App = () => {
             <Suspense fallback={<div>Loading...</div>}>
               <Template1Front size="large" />
               <Template1Back size="large" />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/template3"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <Template3Front size="large" />
+              <Template3Back size="large" />
             </Suspense>
           }
         />

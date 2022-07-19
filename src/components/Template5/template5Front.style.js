@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Template5Style = styled.div`
-  .nomal {
+  .normal {
     width: 616px;
     height: 351px;
     background: rgba(121, 118, 113, 1);
@@ -18,13 +18,13 @@ const Template5Style = styled.div`
     align-items: center;
   }
 
-  .nomal-logo {
+  .normal-logo {
     width: 233px;
     height: 103px;
 
     position: relative;
 
-    .nomal-circle {
+    .normal-circle {
       width: 70px;
       height: 70px;
       border-radius: 50%;
@@ -41,19 +41,19 @@ const Template5Style = styled.div`
       position: absolute;
     }
 
-    .nomal-circle:nth-child(1) {
+    .normal-circle:nth-child(1) {
       top: 0;
       left: 0;
     }
-    .nomal-circle:nth-child(2) {
+    .normal-circle:nth-child(2) {
       bottom: 9px;
       left: 57px;
     }
-    .nomal-circle:nth-child(3) {
+    .normal-circle:nth-child(3) {
       top: 6px;
       left: 117px;
     }
-    .nomal-circle:nth-child(4) {
+    .normal-circle:nth-child(4) {
       bottom: 0;
       right: 0;
     }
