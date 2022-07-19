@@ -54,8 +54,8 @@ const App = () => {
           path="/template2"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template2Front />
-              <Template2Back />
+              <Template2Front size="large" />
+              <Template2Back size="nomal" />
             </Suspense>
           }
         />
