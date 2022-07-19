@@ -56,8 +56,8 @@ const Template1Front = styled.div`
     font-family: "Happy Monkey";
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
-    line-height: 48px;
+    font-size: 70px;
+    line-height: 68px;
     color: #ffffff;
 
     margin: 0;
@@ -71,8 +71,8 @@ const Template1Front = styled.div`
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 17px;
+    font-size: 34px;
+    line-height: 30px;
     /* identical to box height */
     color: #ffffff;
   }

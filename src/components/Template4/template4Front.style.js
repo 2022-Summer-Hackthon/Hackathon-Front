@@ -81,12 +81,12 @@ const Template4FrontStyle = styled.div`
 
   .large-title {
     text-align: center;
-    width: 142px;
+    width: 202px;
     height: 29px;
     background-color: white;
 
     font-weight: 900;
-    font-size: 30px;
+    font-size: 45px;
     line-height: 29px;
     letter-spacing: 0.05em;
     color: #101386;
@@ -96,13 +96,13 @@ const Template4FrontStyle = styled.div`
   }
   .large-url {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 25px;
+    line-height: 20px;
     letter-spacing: 0.05em;
     color: #000000;
 
     position: relative;
-    top: 10px;
+    top: 20px;
   }
 `;
 

@@ -75,7 +75,7 @@ const Template3FrontStyle = styled.div`
   .large-title1 {
     position: absolute;
     top: 227px;
-    left: 392px;
+    left: 362px;
     width: 179px;
     height: 55px;
 
@@ -85,7 +85,7 @@ const Template3FrontStyle = styled.div`
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 55px;
+    font-size: 75px;
     line-height: 63px;
     letter-spacing: 0.2em;
 
@@ -96,16 +96,16 @@ const Template3FrontStyle = styled.div`
 
   .large-title2 {
     position: absolute;
-    left: 374px;
+    left: 354px;
     top: 318px;
 
-    width: 250px;
+    width: 300px;
     height: 28px;
 
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 28px;
     /* identical to box height */
 

@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import Template1BackStyle from "./template1Back.style";
+import Github from "../../assets/image/Github";
 
 const Template1Back = memo(({ size }) => {
   return (
@@ -15,11 +16,20 @@ const Template1Back = memo(({ size }) => {
         </div>
         <div className={`${size}-info`}>
           <div className="flex">
-            <p className="git">github.com/ksh5324</p>
-            <p className="call">010-2237-2925</p>
+            <div>
+              <Github />
+              <p className="git">github.com/ksh5324</p>
+            </div>
+            <div>
+              <Github />
+              <p className="call">010-2237-2925</p>
+            </div>
           </div>
           <p className={`${size}-notion`}>
-            ksh5324.notion.site/ksh5324/c6e568cba1484be48d11c21568a06fe9
+            <Github />
+            <span>
+              ksh5324.notion.site/ksh5324/c6e568cba1484be48d11c21568a06fe9
+            </span>
           </p>
         </div>
       </div>

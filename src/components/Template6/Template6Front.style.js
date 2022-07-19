@@ -55,22 +55,22 @@ const Template6FrontStyle = styled.div`
   }
   p {
     position: absolute;
-    bottom: 5px;
-    left: 130px;
+    bottom: 20px;
+    left: 150px;
     display: inline-block;
     font-weight: 700;
     font-size: 54px;
     color: #8e909b;
   }
   .large-highlightD {
-    margin-left: 10px;
+    margin-left: 40px;
     font-weight: 800;
     font-size: 80px;
     color: #21a5b3;
   }
   .large-highlightG {
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     font-weight: 800;
     font-size: 80px;
     color: #8ed6e5;

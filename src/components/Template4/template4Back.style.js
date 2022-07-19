@@ -157,19 +157,19 @@ const Template4BackStyle = styled.div`
     align-items: flex-end;
 
     position: absolute;
-    top: 420px;
+    top: 400px;
     left: 100px;
 
     .large-name {
       font-weight: 900;
-      font-size: 30px;
+      font-size: 45px;
       line-height: 29px;
       letter-spacing: 0.25em;
       color: #101386;
     }
     .large-career {
       font-weight: 700;
-      font-size: 18px;
+      font-size: 28px;
       line-height: 17px;
       letter-spacing: 0.05em;
       color: #bababa;
@@ -180,7 +180,7 @@ const Template4BackStyle = styled.div`
     top: 57px;
     right: 70px;
 
-    width: 232px;
+    width: 302px;
     height: 68px;
 
     display: flex;
@@ -194,7 +194,7 @@ const Template4BackStyle = styled.div`
 
       .large-title {
         font-weight: 900;
-        font-size: 25px;
+        font-size: 30px;
         line-height: 21px;
         letter-spacing: 0.05em;
 
@@ -202,8 +202,8 @@ const Template4BackStyle = styled.div`
       }
       .large-number {
         font-weight: 700;
-        font-size: 20px;
-        line-height: 18px;
+        font-size: 25px;
+        line-height: 38px;
         letter-spacing: -0.065em;
         color: #101386;
 
@@ -215,8 +215,8 @@ const Template4BackStyle = styled.div`
     }
     .large-address {
       font-weight: 500;
-      font-size: 20px;
-      line-height: 18px;
+      font-size: 25px;
+      line-height: 28px;
       letter-spacing: 0.05em;
       color: #383838;
     }
@@ -234,16 +234,16 @@ const Template4BackStyle = styled.div`
         width: 100px;
         height: 30px;
         font-weight: 700;
-        font-size: 25px;
-        line-height: 19px;
+        font-size: 30px;
+        line-height: 28px;
         letter-spacing: 0.05em;
         color: #101386;
       }
       .large-d {
         margin-left: 35px;
         font-weight: 400;
-        font-size: 20px;
-        line-height: 18px;
+        font-size: 25px;
+        line-height: 28px;
         letter-spacing: -0.065em;
         color: #000000;
       }

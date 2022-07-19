@@ -142,10 +142,10 @@ const Template5BackStyle = styled.div`
 
   .large-info {
     position: absolute;
-    bottom: 30px;
-    right: 27px;
+    bottom: 60px;
+    right: 57px;
 
-    width: 350px;
+    width: 430px;
     height: 204px;
 
     .large-important {
@@ -154,14 +154,14 @@ const Template5BackStyle = styled.div`
 
       .large-name {
         font-weight: 600;
-        font-size: 40px;
+        font-size: 45px;
         line-height: 37px;
         letter-spacing: 0.19em;
       }
       .career {
         margin-left: 16px;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 35px;
         line-height: 20px;
         color: rgba(121, 118, 113, 0.6);
       }
@@ -169,8 +169,8 @@ const Template5BackStyle = styled.div`
     .large-other {
       margin-top: 19px;
       font-weight: 600;
-      font-size: 27px;
-      line-height: 50px;
+      font-size: 32px;
+      line-height: 60px;
       color: #797671;
 
       span {

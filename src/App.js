@@ -52,8 +52,8 @@ const App = () => {
           path="/template5"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template5Front size="large" />
-              <Template5Back size="large" />
+              <Template5Front size="normal" />
+              <Template5Back size="normal" />
             </Suspense>
           }
         />
@@ -61,7 +61,7 @@ const App = () => {
           path="/template2"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template2Front size="large" />
+              <Template2Front size="normal" />
               <Template2Back size="normal" />
             </Suspense>
           }
@@ -70,8 +70,8 @@ const App = () => {
           path="/template4"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template4Front size="large" />
-              <Template4Back size="large" />
+              <Template4Front size="normal" />
+              <Template4Back size="normal" />
             </Suspense>
           }
         />
@@ -79,8 +79,8 @@ const App = () => {
           path="/template9"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template9Front size="large" />
-              <Template9Back size="large" />
+              <Template9Front size="normal" />
+              <Template9Back size="normal" />
             </Suspense>
           }
         />
@@ -88,8 +88,8 @@ const App = () => {
           path="/template1"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template1Front size="large" />
-              <Template1Back size="large" />
+              <Template1Front size="normal" />
+              <Template1Back size="normal" />
             </Suspense>
           }
         />
@@ -97,8 +97,8 @@ const App = () => {
           path="/template3"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template3Front size="large" />
-              <Template3Back size="large" />
+              <Template3Front size="normal" />
+              <Template3Back size="normal" />
             </Suspense>
           }
         />
@@ -106,8 +106,8 @@ const App = () => {
           path="/template6"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template6Front size="large" />
-              <Template6Back size="large" />
+              <Template6Front size="normal" />
+              <Template6Back size="normal" />
             </Suspense>
           }
         />
@@ -115,8 +115,8 @@ const App = () => {
           path="/template7"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template7Front size="large" />
-              <Template7Back size="large" />
+              <Template7Front size="normal" />
+              <Template7Back size="normal" />
             </Suspense>
           }
         />
@@ -124,8 +124,8 @@ const App = () => {
           path="/template8"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Template8Front size="large" />
-              <Template8Back size="large" />
+              <Template8Front size="normal" />
+              <Template8Back size="normal" />
             </Suspense>
           }
         />
