@@ -129,6 +129,14 @@ const App = () => {
             </Suspense>
           }
         />
+        <Route
+          path="/name/:number"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <div>fix</div>
+            </Suspense>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );
