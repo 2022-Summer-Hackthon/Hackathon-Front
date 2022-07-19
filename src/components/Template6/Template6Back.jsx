@@ -5,7 +5,7 @@ import LargeZline from "../../assets/image/LargeZline";
 const Template6Back = memo(({ size }) => {
   return (
     <Template6BackStyle>
-      <div className={`${size}`}>
+      <div className={`${size} cardBack`}>
         <div className={`${size}-infoDiv`}>
           <div className="personInfo">
             <ul>

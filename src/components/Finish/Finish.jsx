@@ -5,6 +5,9 @@ import axios from "axios";
 import ifconfig from "../../config/ipconfig.json";
 
 import React, { lazy, useCallback, useEffect, useState } from "react";
+import domtoimage from "dom-to-image";
+import { saveAs } from "file-saver";
+
 import Template1FrontPng from "../../assets/image/Template1FrontPng.png";
 import Template1BackPng from "../../assets/image/Template1BackPng.png";
 
@@ -147,6 +150,15 @@ const Finish = () => {
   useEffect(() => {
     console.log(data);
   });
+  
+  const onClickSave = () => {
+    domtoimage.toBlob(document.querySelector(".card")).then((blob) => {
+      saveAs(blob, "cardFront.png");
+    });
+    domtoimage.toBlob(document.querySelector(".cardBack")).then((blob) => {
+      saveAs(blob, "cardBack.png");
+    });
+  };
 
   return (
     <FinishStyle>
@@ -166,7 +178,9 @@ const Finish = () => {
           changeGRADUATE={changeGRADUATE}
         />
       </div>
-      <button className="save">저장</button>
+      <button className="save" onClick={onClickSave}>
+        저장
+      </button>
       <button className="qr">QR 코드</button>
     </FinishStyle>
   );

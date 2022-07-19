@@ -5,7 +5,7 @@ import Template2BackStyle from "./Template2Back.style";
 const Template2Back = memo(({ size }) => {
   return (
     <Template2BackStyle>
-      <div className={`${size}-back`}>
+      <div className={`${size}-back cardBack`}>
         <div className={`${size}-intro`}>
           <h1 className={`${size}-name`}>Kang SeongHun</h1>
           <h2 className={`${size}-career`}>Developer</h2>

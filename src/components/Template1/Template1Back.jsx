@@ -6,7 +6,7 @@ const Template1Back = memo(
   ({ size, data, changeName, changeJob, changeGRADUATE }) => {
     return (
       <Template1BackStyle>
-        <div className={`${size}-back`}>
+        <div className={`${size}-back cardBack`}>
           <div className={`${size}-school`}>
             <input
               className={`${size}-title1`}
