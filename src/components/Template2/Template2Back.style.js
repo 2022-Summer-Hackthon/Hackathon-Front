@@ -15,6 +15,12 @@ const Template2BackStyle = styled.div`
     margin-left: 28px;
   }
 
+  input {
+    display: block;
+    border: none;
+    outline: none;
+  }
+
   .normal-name {
     /*Kang SeongHun*/
     position: absolute;
@@ -95,8 +101,9 @@ const Template2BackStyle = styled.div`
     font-size: 20px;
     display: flex;
     align-items: center;
-    span {
+    input {
       margin-left: 10px;
+      font-size: 20px;
     }
   }
 
@@ -108,8 +115,9 @@ const Template2BackStyle = styled.div`
     font-size: 20px;
     display: flex;
     align-items: center;
-    span {
+    input {
       margin-left: 10px;
+      font-size: 20px;
     }
   }
 
@@ -121,8 +129,9 @@ const Template2BackStyle = styled.div`
     font-size: 20px;
     display: flex;
     align-items: center;
-    span {
+    input {
       margin-left: 10px;
+      font-size: 20px;
     }
   }
   /*mmmmmmmmmmmmmmmm*/
@@ -142,16 +151,17 @@ const Template2BackStyle = styled.div`
   .large-name {
     /*Kang SeongHun*/
     position: absolute;
-    width: 500px;
+    width: 300px;
     height: 28px;
     top: 140px;
 
     font-family: "Arial";
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 28px;
+    font-size: 30px;
+    line-height: 20px;
     /* identical to box height */
+    padding: 5px;
 
     letter-spacing: 0.05em;
 
@@ -163,7 +173,7 @@ const Template2BackStyle = styled.div`
     /*Developer*/
 
     top: 180px;
-    width: 92px;
+    width: 132px;
     height: 23px;
 
     font-family: "Arial";
@@ -178,7 +188,7 @@ const Template2BackStyle = styled.div`
   .large-text {
     /*더 좋은 개발자*/
     position: absolute;
-    width: 240px;
+    width: 200px;
     height: 50px;
     top: 236px;
     font-family: "Arial";
@@ -220,8 +230,9 @@ const Template2BackStyle = styled.div`
     display: flex;
     align-items: center;
 
-    span {
+    input {
       margin-left: 10px;
+      font-size: 30px;
     }
   }
 
@@ -234,8 +245,9 @@ const Template2BackStyle = styled.div`
 
     display: flex;
     align-items: center;
-    span {
+    input {
       margin-left: 10px;
+      font-size: 30px;
     }
   }
 
@@ -247,8 +259,9 @@ const Template2BackStyle = styled.div`
     font-size: 30px;
     display: flex;
     align-items: center;
-    span {
+    input {
       margin-left: 10px;
+      font-size: 30px;
     }
   }
 `;

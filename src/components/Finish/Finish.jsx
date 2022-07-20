@@ -174,16 +174,39 @@ const Finish = () => {
     fetchData();
   }, []);
 
-  useEffect(() => {
-    console.log(data);
-  });
-
   const onClickSave = () => {
     domtoimage.toBlob(document.querySelector(".card")).then((blob) => {
       saveAs(blob, "cardFront.png");
     });
     domtoimage.toBlob(document.querySelector(".cardBack")).then((blob) => {
       saveAs(blob, "cardBack.png");
+    });
+  };
+
+  const makeQr = () => {
+    const qrcode = new FormData();
+    domtoimage.toBlob(document.querySelector(".card")).then((blob) => {
+      qrcode.append = ("front", blob);
+
+      domtoimage
+        .toBlob(document.querySelector(".cardBack"))
+        .then(async (blob) => {
+          qrcode.append = ("behind", blob);
+
+          console.log(qrcode);
+
+          const data = await axios.post(
+            `${ifconfig.url}/draft/downloads`,
+            qrcode,
+            {
+              headers: {
+                "Content-Type": "multipart/form-data",
+              },
+            }
+          );
+
+          console.log(data);
+        });
     });
   };
 
@@ -211,7 +234,9 @@ const Finish = () => {
       <button className="save" onClick={onClickSave}>
         저장
       </button>
-      <button className="qr">QR 코드</button>
+      <button className="qr" onClick={makeQr}>
+        QR 코드
+      </button>
     </FinishStyle>
   );
 };

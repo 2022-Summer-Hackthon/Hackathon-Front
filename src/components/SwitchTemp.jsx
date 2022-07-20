@@ -47,8 +47,23 @@ const SwitchTemp = memo(
           </>
         ) : templateNumber === 2 ? (
           <>
-            <Template2Front size="large" data={data} />
-            <Template2Back size="large" data={data} />
+            <Template2Front
+              size="large"
+              data={data}
+              changeGRADUATE={changeGRADUATE}
+              changeJob={changeJob}
+            />
+            <Template2Back
+              size="large"
+              data={data}
+              changeGRADUATE={changeGRADUATE}
+              changeName={changeName}
+              changeJob={changeJob}
+              changeGRADUATE={changeGRADUATE}
+              changeNumber={changeNumber}
+              changeEmail={changeEmail}
+              changeGithub={changeGithub}
+            />
           </>
         ) : templateNumber === 3 ? (
           <>
