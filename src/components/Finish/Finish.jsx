@@ -139,6 +139,30 @@ const Finish = () => {
       ),
     });
   });
+  const changeNumber = useCallback((e) => {
+    setData({
+      ...data,
+      user_info_list: [...data.user_info_list].map(
+        (v) => v.type === "TEL" && e.target.value
+      ),
+    });
+  });
+  const changeEmail = useCallback((e) => {
+    setData({
+      ...data,
+      user_info_list: [...data.user_info_list].map(
+        (v) => v.type === "EMAIL" && e.target.value
+      ),
+    });
+  });
+  const changeGithub = useCallback((e) => {
+    setData({
+      ...data,
+      user_info_list: [...data.user_info_list].map(
+        (v) => v.type === "GITHUB" && e.target.value
+      ),
+    });
+  });
 
   useEffect(() => {
     async function fetchData() {
@@ -179,6 +203,9 @@ const Finish = () => {
           changeName={changeName}
           changeJob={changeJob}
           changeGRADUATE={changeGRADUATE}
+          changeNumber={changeNumber}
+          changeEmail={changeEmail}
+          changeGithub={changeGithub}
         />
       </div>
       <button className="save" onClick={onClickSave}>

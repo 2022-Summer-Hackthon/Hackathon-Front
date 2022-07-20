@@ -3,7 +3,16 @@ import Template1BackStyle from "./template1Back.style";
 import Github from "../../assets/image/Github";
 
 const Template1Back = memo(
-  ({ size, data, changeName, changeJob, changeGRADUATE }) => {
+  ({
+    size,
+    data,
+    changeName,
+    changeJob,
+    changeGRADUATE,
+    changeNumber,
+    changeEmail,
+    changeGithub,
+  }) => {
     return (
       <Template1BackStyle>
         <div className={`${size}-back cardBack`}>
@@ -38,7 +47,7 @@ const Template1Back = memo(
                       ? data.user_info_list[0].value
                       : "not"
                   }
-                  onChange={changeName}
+                  onChange={changeNumber}
                 />
               </div>
               <div>
@@ -50,7 +59,7 @@ const Template1Back = memo(
                       ? data.user_info_list[1].value
                       : "not"
                   }
-                  onChange={changeName}
+                  onChange={changeEmail}
                 />
               </div>
             </div>
@@ -63,7 +72,7 @@ const Template1Back = memo(
                     ? data.user_info_list[2].value
                     : "not"
                 }
-                onChange={changeName}
+                onChange={changeGithub}
               />
             </p>
           </div>
