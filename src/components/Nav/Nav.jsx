@@ -30,8 +30,9 @@ const Nav = memo(() => {
             <p>컬렉션</p>
           </li>
         </NavLink>
-        <NavLink
-          to="/intro"
+        <a
+          href="https://github.com/2022-Summer-Hackthon/Hackathon"
+          target="_blank"
           style={{ textDecoration: "none" }}
           className={({ isActive }) => (isActive ? "choose" : "")}
         >
@@ -39,7 +40,7 @@ const Nav = memo(() => {
             <Price />
             <p>소개</p>
           </li>
-        </NavLink>
+        </a>
       </ul>
     </NavStyle>
   );
