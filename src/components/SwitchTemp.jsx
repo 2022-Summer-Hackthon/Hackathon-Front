@@ -19,7 +19,16 @@ import Template9Front from "./Template9/Template9Front";
 import Template9Back from "./Template9/Template9Back";
 
 const SwitchTemp = memo(
-  ({ templateNumber, data, changeName, changeJob, changeGRADUATE }) => {
+  ({
+    templateNumber,
+    data,
+    changeName,
+    changeJob,
+    changeGRADUATE,
+    changeNumber,
+    changeEmail,
+    changeGithub,
+  }) => {
     return (
       <>
         {templateNumber === 1 ? (
@@ -31,6 +40,9 @@ const SwitchTemp = memo(
               changeName={changeName}
               changeJob={changeJob}
               changeGRADUATE={changeGRADUATE}
+              changeNumber={changeNumber}
+              changeEmail={changeEmail}
+              changeGithub={changeGithub}
             />
           </>
         ) : templateNumber === 2 ? (
