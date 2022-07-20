@@ -34,8 +34,8 @@ const Template1Back = memo(
                 <input
                   className={`git`}
                   value={
-                    data !== undefined && data.user_info_list.length >= 3
-                      ? data.user_info_list[2].value
+                    data !== undefined && data.user_info_list.length >= 1
+                      ? data.user_info_list[0].value
                       : "not"
                   }
                   onChange={changeName}
@@ -59,8 +59,8 @@ const Template1Back = memo(
               <input
                 className={`git`}
                 value={
-                  data !== undefined && data.user_info_list.length >= 1
-                    ? data.user_info_list[0].value
+                  data !== undefined && data.user_info_list.length >= 3
+                    ? data.user_info_list[2].value
                     : "not"
                 }
                 onChange={changeName}

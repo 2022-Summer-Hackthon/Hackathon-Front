@@ -133,7 +133,10 @@ const Finish = () => {
   const changeGRADUATE = useCallback((e) => {
     setData({
       ...data,
-      carriers: ([...data.carriers][0] = e.target.value),
+      carriers: [...data.carriers].map(
+        (v) =>
+          v.category === "GRADUATE" && { ...v, carrier_name: e.target.value }
+      ),
     });
   });
 
@@ -150,7 +153,7 @@ const Finish = () => {
   useEffect(() => {
     console.log(data);
   });
-  
+
   const onClickSave = () => {
     domtoimage.toBlob(document.querySelector(".card")).then((blob) => {
       saveAs(blob, "cardFront.png");

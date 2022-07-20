@@ -206,7 +206,9 @@ const Template1BackStyle = styled.div`
       margin-left: 19px;
     }
   }
-
+  .git {
+    font-size: 27px;
+  }
   .call {
     font-size: 27px;
   }
