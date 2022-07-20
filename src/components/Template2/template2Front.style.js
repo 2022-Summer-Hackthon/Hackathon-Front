@@ -11,6 +11,11 @@ const Template2FrontStyle = styled.div`
     margin-bottom: 50px;
     background-color: white;
   }
+  input {
+    display: block;
+    border: none;
+    outline: none;
+  }
   .normal-title {
     color: black;
   }
@@ -57,7 +62,7 @@ const Template2FrontStyle = styled.div`
   .title {
     color: black;
   }
-  h1 {
+  .large-title1 {
     width: 551px;
     height: 110px;
 
@@ -70,7 +75,7 @@ const Template2FrontStyle = styled.div`
 
     color: #000000;
   }
-  h2 {
+  .large-title2 {
     width: 431px;
     height: 23px;
 
