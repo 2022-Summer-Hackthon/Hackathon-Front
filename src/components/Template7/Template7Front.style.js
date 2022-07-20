@@ -90,12 +90,18 @@ const Template7Style = styled.div`
 
     margin-bottom: 50px;
   }
-  h1 {
+  input {
     z-index: 999;
     font-size: 50px;
     color: #636363;
+    border: none;
+    background: transparent;
     .large-highlight {
       color: #e04a53;
+      width: 340px;
+      height: 50px;
+      font-weight: 800;
+      font-size: 41px;
     }
   }
   .large-stick1 {

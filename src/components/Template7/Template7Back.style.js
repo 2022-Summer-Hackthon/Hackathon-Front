@@ -117,6 +117,16 @@ const Template7BackStyle = styled.div`
 
   /*---------------------------------------------------------------*/
 
+  input {
+    border: none;
+    background-color: transparent;
+  }
+  .personInfoInput {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
   .large {
     width: 989px;
     height: 597px;
